@@ -10,7 +10,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/images/cafeteriaa.jpg");
+  background-image: url("/images/cafeteria.png");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -83,11 +83,7 @@ h1 {
   font-size: 40px;
   text-shadow: 2px 2px 2px #fff4f4;
 }
-.kanit-black-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
+
 
 .intro {
   color: rgb(255, 250, 250);
@@ -103,7 +99,7 @@ h1 {
 .resto {
   color: #333333;
   background-color: #f5cac3;
-  margin: 10%;
+  margin: 10px;
   margin-top: 10px;
   width: 250px;
   display: flex;
@@ -117,6 +113,7 @@ h1 {
   transition: all 0.4s ease;
 }
 .resto-container {
+
   color: #333333;
   display: flex;
   flex-wrap: wrap;
@@ -137,19 +134,14 @@ h1 {
   font-family: "Sevillana", cursive;
 }
 .resto img {
-  width: 100%;
+  height: 250px;
+  width: 80%;
   border-radius: 20px;
 }
-.description {
-  margin: 10px;
-  margin-top: 80px;
-  text-align: center;
-  justify-content: center;
-  font-size: 16px;
-}
+
 button {
-  background-color: #9ceffa; /* Beige */
-  color: #333333; /* Texto oscuro para buen contraste */
+  background-color: #9ceffa; 
+  color: #333333; 
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
