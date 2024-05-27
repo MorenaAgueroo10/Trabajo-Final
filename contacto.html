@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <p>Sweet Penelope</p>
+        <ul class="barra">
+          <li><a href="./index.html">Inico</a></li>
+          <li><a href="./horario.html">Horario de contacto</a></li>
+          <li><a href="#">Contactanos</a></li>
+        </ul>
+      </nav>
+      <div class="nav-movil">
+        <input type="checkbox" id="toggle-menu" />
+        <label
+          for="toggle-menu"
+          class="abrir-menu"
+          data-open="☰"
+          data-close="✖"
+        ></label>
+        <nav class="menu-movil">
+          <ul class="lista-menu">
+            <li><a href="#">Inico</a></li>
+            <li><a href="./horario.html">Horario de contacto</a></li>
+            <li><a href="./contacto.html">Contactanos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="form-container">
+      <h3 class="tittle-form">Hace tu reserva aquí!</h3>
+      <form class="form">
+        <div class="personal-dates">
+          <div class="date">
+            <label for="nombre">Nombre</label>
+            <input class="input-field" type="text" id="nombre" />
+          </div>
+          <div class="date">
+            <label for="apellido">Apellido</label>
+            <input class="input-field" type="text" id="apellido" />
+          </div>
+        </div>
+        <button class="btn-form">Aceptar</button>
+      </form>
+    </section>
+  </body>
+</html>

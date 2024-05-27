@@ -1,0 +1,303 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/cafeteriaa.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  z-index: -1; /* Asegura que esté detrás del contenido */
+}
+.nav-movil {
+  display: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+.sevillana-regular {
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-bar {
+  margin-bottom: -65px;
+  font-family: "Sevillana", cursive;
+  color: #ff70a6;
+  text-shadow: 2px 2px 2px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 60px;
+  width: 100%;
+}
+.barra {
+  font-family: "Sevillana", cursive;
+  color: #ff70a6;
+  text-shadow: 2px 2px 2px #ffffff;
+  font-size: 30px;
+  margin-top: 24px;
+  margin-right: 20px;
+  height: 50px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: end;
+  gap: 50px;
+}
+a {
+  color: #ff70a6;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+}
+a:active {
+  color: rgb(95, 180, 236);
+}
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: #ff70a6;
+  font-family: "Sevillana", cursive;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #fff4f4;
+}
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.intro {
+  color: rgb(255, 250, 250);
+  margin: 50px;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.resto {
+  color: #333333;
+  background-color: #f5cac3;
+  margin: 10%;
+  margin-top: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(163, 161, 163);
+  border-radius: 20px;
+  padding: 20px;
+  gap: 20px;
+  transition: all 0.4s ease;
+}
+.resto-container {
+  color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.resto:hover {
+  transform: scale(1.1);
+}
+.cards-containers {
+  color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+
+  font-family: "Sevillana", cursive;
+}
+.resto img {
+  width: 100%;
+  border-radius: 20px;
+}
+.description {
+  margin: 10px;
+  margin-top: 80px;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+}
+button {
+  background-color: #9ceffa; /* Beige */
+  color: #333333; /* Texto oscuro para buen contraste */
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  background-color: #3f96f8;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.btn {
+  font-family: "Sevillana", cursive;
+  color: #333333;
+  font-size: 30px;
+  gap: 20px;
+}
+footer {
+  margin: 20px;
+  text-align: end;
+  font-size: 20px;
+  color: #dcdcdc;
+}
+
+table {
+  width: 40%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #a9def9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #000;
+  color: white;
+}
+
+tbody tr:hover {
+  background-color: #99c1de;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ff99c8;
+}
+tbody tr:nth-child(even):hover {
+  background-color: #ff70a6;
+}
+
+tbody td:first-child,
+thead th:first-child {
+  border-top-left-radius: 5px;
+}
+
+tbody td:last-child,
+thead th:last-child {
+  border-top-right-radius: 5px;
+}
+
+h2 {
+  font-family: "Sevillana", cursive;
+  color: #ff70a6;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Sevillana", cursive;
+  color: #ff70a6;
+  text-shadow: 2px 2px 2px #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.form-container {
+  color: rgb(255, 250, 250);
+  font-family: "Sedan SC";
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.form {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #a8a8a8;
+  background-color: #fad2e1;
+  box-shadow: 0 8px 20px rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.personal-dates {
+  display: flex;
+  gap: 10px;
+}
+
+.date {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.input-field {
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.large {
+  width: 356px;
+}
+
+.btn-form {
+  height: 50px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid black;
+  background-color: aliceblue;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.btn-form:hover {
+  background-color: #ff6bff;
+  color: white;
+  transform: scale(1.1);
+}
