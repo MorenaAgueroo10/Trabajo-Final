@@ -2,12 +2,11 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100px;
-  
-  background-image: url("/images/cafeteriaa.jpg");
 }
 body::before {
   content: "";
-  position: fixed;
+  position: fixed;  
+  background-image: url("/images/ind.png");
   top: 0;
   left: 0;
   width: 100%;
